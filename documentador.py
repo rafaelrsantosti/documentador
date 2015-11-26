@@ -13,7 +13,7 @@ support. By default it captures the entire desktop.
 #
 ###############################################################################
 
-# Easy-to-change defaults for users
+
 DEFAULT_FPS = 15
 DEFAULT_FILE_EXTENSION = "mkv"
 ACCEPTABLE_FILE_EXTENSIONS = ["avi", "mp4", "mov", "mkv", "ogv", "webm"]
@@ -34,7 +34,7 @@ import re
 PYTHON_3 = (sys.version_info[0] == 3)
 
 
-# Optional packages
+#Pacote opcionais
 try:
     import Tkinter
     have_tk = True
